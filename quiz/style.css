@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+      /* style to first page/userdetail page */
+
+
+.container{
+    margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 20%;
+  min-height: 350px;
+  border: 2px solid gray;
+  background-color:rgb(238, 228, 209) ;
+  border-radius: 20px;
+  box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+  min-width: 300px;
+  max-width: 500px;
+}
+#userDetailsSection{
+    margin: 20px;
+}
+#userDetailsSection img{
+    margin-left:30% ;
+
+}
+#userDetailsSection h1{
+    margin-left: 20%;
+    color: lightseagreen;
+    margin-top: 15px;
+}
+#userDetailsSection input{
+    margin-left: 24%;
+    margin-top: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+.enter{
+    margin-left: 10px;
+    padding: 10px;
+}
+#categorySection{
+    margin-left: 20%;
+    display: none;
+
+}
+#categorySection button{
+    margin: 15px;
+    margin-top: 35px;
+    padding: 20px;
+    font-size: 15px;
+    width: 150px;
+    height: 60px;
+    
+}
+#categorySection #select{
+    display: none;
+    margin-left: 15%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+#quizPage{
+    display: none;
+    margin: 5%;
+
+
+}
+#resultPage{
+    display: none;
+}
+
+   /* style to timer and score */
+
+
+#timer{
+    margin-top: -20px;
+    height: 60px;
+    width: 60px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    border: 1px solid darkcyan;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#timer span{
+    display: block;
+    font-size: 15px;
+    margin-top: 30px;
+    
+}
+#score{
+    float: inline-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+     /* style to question/quiz page */
+#questionContainer{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nextque{
+    margin-top: auto;
+    margin-left: 50px;
+}
+.questioncontent{
+    font-size: 20px;
+    margin: 10px;
+}
+#optionsContainer button{
+    margin: 10px;
+    padding: 10px;
+}
+#quizPage .nextque{
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 10px;
+    
+    
+}
+
+
+
+   /* result page style */
+
+
+#resultPage{
+    margin: 10%;
+   
+}
+
+#resultPage p{
+    margin: 20px;
+    font-size: 15px;
+    margin-left: 25%;
+    font-weight: 700;
+    
+}
+.last{
+    margin: 30px;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+#resultPage button{
+   
+    padding: 10px;
+    margin: 20px;
+    
+    
+}
+#resultPage h2{
+    color: lightseagreen;
+    margin: 20px;
+    margin-left: 25%;
+
+}
+
+      /* style to all buttons */
+button{
+    background-color: lightseagreen;
+    border: 1px solid limegreen;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+   
+
+}
+
+
+    /* Media query start device code */
+
+
+@media screen and (min-width:480px ){
+    
+    #userDetailsSection img{
+        width: 150px;
+        height: 150px;
+    }
+    #userDetailsSection h1{
+        margin-left: 30px;
+
+    }
+    #userDetailsSection .enter{
+        margin-top: 10px;
+    }
+
+}
+    /* media query end device code */

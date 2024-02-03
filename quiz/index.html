@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Quiz App</title>
+</head>
+<body>
+
+      <!-- userDetailsSection -->
+    <div class="container">
+    <div id="userDetailsSection">
+        <img src="download.png" alt="Quiz App Logo">
+        <h1>Welcome to the Quiz App</h1>
+        <input type="text" id="userName" placeholder="Enter your name">
+        <button onclick="startQuiz()" class="enter">Enter</button>
+    </div>
+          <!-- categorySection -->
+    <div id="categorySection" >
+        <h1 id="select">Select Catagory</h1>
+        <button onclick="startCategory('Javascript')">Javascript </button>
+        <button onclick="startCategory('Node JS')">Node JS</button> <br>
+        <button onclick="startCategory('Python')"> Python</button>
+        <button onclick="startCategory('HTML & CSS')"> HTML & CSS</button>
+    </div>
+       <!-- QuizPage -->
+    <div id="quizPage">
+        <!-- Questions and options will be dynamically generated here -->
+        <div id="timer"> <span id="timerValue">60</span> </div>
+        <div id="score">Score: <span id="scoreValue">0</span></div>
+        
+        <div id="questionContainer"></div>
+        <button onclick="nextQuestion()" class="nextque">Next Question</button>
+        
+    </div> 
+         <!-- ResultPage -->
+    <div id="resultPage">
+       
+    </div> 
+</div>
+    <script src="questions.js"></script>
+</body>
+</html>
